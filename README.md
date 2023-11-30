@@ -147,6 +147,16 @@ $ torchrun --nproc_per_node=8 --nnodes=2 --node_rank=0 --master_addr=123.456.123
 $ torchrun --nproc_per_node=8 --nnodes=2 --node_rank=1 --master_addr=123.456.123.456 --master_port=1234 train.py
 (If your cluster does not have Infiniband interconnect prepend NCCL_IB_DISABLE=1)
 
+## References:
+
+* Andrei Karpathy's nanogpt: https://github.com/karpathy/nanogpt
+* Vaswani et. al. Attention is all you need
+* Su et. al. RoFormer.
+* Ainslie et. al. GQA: Training Generalized Multi-Query
+* https://github.com/JunnYu/RoFormer_pytorch
+* https://aliissa99.medium.com/-a596e4d86f79 
+* https://arxiv.org/pdf/1911.02150
+
 
 
 
